@@ -88,7 +88,7 @@ body {
   background-image: url("../imgs/reconciliationsbg.png");
 }
 .myHeader-pricing {
-  height: 10vh !important;
+  height: 10vh;
 }
 
 .dropdown-item {
