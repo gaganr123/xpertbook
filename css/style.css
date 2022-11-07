@@ -54,7 +54,7 @@ body {
 }
 
 .myHeader-home {
-  background-image: url(/imgs/bookkeeping.png);
+  background-image: url("/imgs/bookkeeping.png");
 }
 
 .myHeader-backlog {
