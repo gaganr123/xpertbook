@@ -47,8 +47,8 @@ body {
 }
 
 .myHeader {
-  height: 110vh;
-  width: auto;
+  height: 100vh;
+  width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -95,7 +95,10 @@ body {
   width: 25em;
   font-size: large;
 }
-
+#hero{
+  height: 100vh;
+  width: 100%;
+}
 /* for the content in main page */
 .test {
   padding-top: 20rem;
