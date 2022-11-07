@@ -370,9 +370,6 @@ html {
     rgba(119, 109, 109, 0.452),
     rgba(117, 75, 13, 0.425)
   );
-  /* background-image: url(/imgs/footer.png);
-  background-repeat: no-repeat;
-  background-size: cover; */
 }
 
 .footer a {
@@ -391,7 +388,7 @@ html {
 
 .pricing-card {
   background-color: rgb(251, 248, 240);
-  border: 1px solid rgb(10, 10, 10);
+  border: 1px solid rgb(168, 166, 166);
 }
 
 .row-two {
