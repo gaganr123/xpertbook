@@ -256,6 +256,9 @@ html {
   border-radius: 20px;
   box-shadow: 1px 3px 0px 1px;
 }
+.testimonial:hover {
+  background-color: antiquewhite;
+}
 .testimonial-text,
 .testimonial-footer {
   color: rgb(47, 48, 52);
@@ -309,6 +312,9 @@ html {
 
 .features h5 {
   margin-top: 10px;
+  font-size: 23px;
+  font-weight: bold;
+  color: rgb(241, 95, 34);
 }
 .card {
   border: none;
@@ -319,7 +325,9 @@ html {
   background-color: rgb(248, 246, 244);
   padding: 0px 30px;
 }
-
+.features .card-body:hover {
+  background-color: white;
+}
 /*--------------------------------------------------------------
 # FAQs
 --------------------------------------------------------------*/
@@ -354,12 +362,6 @@ html {
   box-shadow: 0;
 }
 
-/* .accordion-button::after{
-    font-size: small;
-    height: 15px;
-    width: 15px;
- } */
-
 .footer {
   height: auto;
   width: auto;
@@ -385,4 +387,42 @@ html {
 }
 .footer-right i {
   color: rgb(241, 95, 34);
+}
+
+.pricing-card {
+  background-color: rgb(251, 248, 240);
+  border: 1px solid rgb(10, 10, 10);
+}
+
+.row-two {
+  background-color: antiquewhite;
+}
+
+.row-three {
+  background-color: rgb(246, 243, 241);
+}
+
+.one-col {
+  height: 100%;
+  /* display: flex;
+    flex-wrap: wrap; */
+  align-content: center;
+}
+.list-group {
+  margin: 10px 10px 0;
+}
+.list-group-item {
+  border: none;
+  padding: 8px 0px;
+}
+small {
+  font-size: 12px;
+}
+
+.sideExpert {
+  /* height: 100%; */
+  display: grid;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
+  align-items: center;
 }
